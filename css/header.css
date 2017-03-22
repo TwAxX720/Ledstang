@@ -1,67 +1,50 @@
-.box1{
-	width: 100%;
-	height: auto;
+.bannerbox{
+margin: 0%;
+width: 100%;
+height:auto;
+padding: 0%;
+
+}
+
+.banner{
+margin: 0%;
+width: 50%;
+height:auto;
+padding: 0%;
+
+}
+
+.boxtillmenu{
+    width: 100%;
+    height: auto;
     margin: 0%;
 }
 
+
 ul {
-    list-style: none;
-       display: block;
-    margin: 0%;
-    padding: 0%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     overflow: hidden;
     background-color: #000;
+
 }
 
 li {
-    float:left;
+    float: left;
 }
 
 li a {
-	height:0em;
+    height:0em;
     display: block;
     font-family: arial;
    font-size:0.9vw;
     color: #fff;
     text-align: center;
-    padding: 1em 1em 2em 2em;
+padding:1.5em 2.5em 2.5em 2.5em;
     text-decoration: none;
 }
 
 li a:hover {
     background-color: #333;
-}
-
-
-#navigation {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #fff;
-    display:inline-block;
-}
-
-
-#navigation li
-{
-}
-
-#navigation li a
-{
-    height:0em;
-    display: block;
-    font-family: arial;
-    font-size:0.8vw;
-    color: #000;
-    text-align: center;
-    padding: 1em 1em 2em 2em;
-    text-decoration: ;
-}
-
-#navigation li:hover a,
-#navigation li a:hover
-{
-background-color: #000;
- color: #fff;
 }
