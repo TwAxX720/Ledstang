@@ -1,7 +1,9 @@
 body,html {
-    background-color:#fff;
+    background-image:url("../bilder/bakgrund.jpg");
+    background-repeat: ;
+    background-attachment: fixed;
     width: 100%;
-  height: 100%;
+    height: 100%;
     margin: 0%;
 }
 

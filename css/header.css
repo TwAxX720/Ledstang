@@ -15,10 +15,163 @@ padding: 0%;
 
 }
 
+
+.bild1{
+
+    width: 100%;
+    height: auto;
+    background:url(../bilder/ledstång.jpg); ) no-repeat center center;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: 100%;
+ background-repeat: no-repeat;
+ max-width: auto;
+ max-height: auto;
+ background-position: center;
+ padding-top: 6%;
+ padding-bottom: 7%;
+margin-bottom: 0.4%;
+}
+
+
+.bild2{
+margin-left: 5%;
+    width:20%;
+    height: auto;
+    float: left;
+    font-family: arial;
+    font-size: 1.5vw;
+    color: white;
+
+}
+
+
+.bild3{
+margin-right: 5%;
+    width: 20%;
+    height: auto;
+    float: right;
+      font-family: arial;
+    font-size: 1.5vw;
+    color: white;
+}
+
+
+.bild4{
+    width: 20%;
+    height: auto;
+    float: ;
+       font-family: arial;
+    font-size: 1.5vw;
+    color: white;
+}
+
+
+
+
+.boxtill3val{
+
+    width: 100%;
+    height: auto;
+    border-top:2%
+
+}
+
+.mått{
+    width:30%;
+    height: auto;
+    float: left;
+ color: white;
+ background-color: white;
+}
+
+.måttbild{
+     width: 100%;
+    height: auto;
+    background:url(../bilder/600.png); ) no-repeat center center;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: 100%;
+ background-repeat: no-repeat;
+ max-width: auto;
+ max-height: auto;
+ background-position: center;
+ padding-top: 20%;
+ padding-bottom: 20%;
+}
+
+
+.tillverkning{
+    width: 30%;
+    height: auto;
+    float: right;
+      font-family: arial;
+    font-size: 1.5vw;
+    color: white;
+     background-color: black;
+}
+
+
+.tillverkningbild{
+     width: 100%;
+    height: auto;
+    background:url(../bilder/600.png); ) no-repeat center center;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: 100%;
+ background-repeat: no-repeat;
+ max-width: auto;
+ max-height: auto;
+ background-position: center;
+ padding-top: 20%;
+ padding-bottom: 20%;
+}
+
+
+.montering{
+    width: 30%;
+    height: auto;
+    float: ;
+       font-family: arial;
+    font-size: 1.5vw;
+    color: white;
+     background-color: black;
+}
+
+
+
+.monteringbild{
+     width: 100%;
+    height: auto;
+    background:url(../bilder/600.png); ) no-repeat center center;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: 100%;
+ background-repeat: no-repeat;
+ max-width: auto;
+ max-height: auto;
+ background-position: center;
+ padding-top: 20%;
+ padding-bottom: 20%;
+}
+
 .boxtillmenu{
 
     height:auto;
     margin: 0%;
+}
+
+
+
+
+.shopbox{
+    width: 100%
+    height:auto;
+    background-color: transparent;
 }
 
 
@@ -89,6 +242,23 @@ background-color:#EA8422;
 color: #000;
 }
 
+a.two{
+
+    text-decoration: none;
+    color:#fff ;
+font-size: 1.5vw;
+    display: inline;
+
+
+
+}
+
+a.two:hover{
+
+    text-decoration: none;
+    color:#EA8422 ;
+font-family: arial;
+}
 
 
 
