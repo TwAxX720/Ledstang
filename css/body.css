@@ -22,19 +22,20 @@
 	width: 100%;
 	height: auto;
 		background-color: #EA8422; /*ORANGE*/
+
 }
 
 
 .box3{
 	width:100%;
 	height: auto;
-	background-color: #053A66; /*ORANGE*/
+	background-color: #053A66; /*blå*/
 	margin-top:0%;
 }
 .box2{
 	width:100%;
 	height: auto;
-	background-color: #EA8422;
+	background-color: #EA8422; /*ORANGE*/
 	margin-top:0%;
  border-bottom-left-radius: 2em ;
 	 padding-top: 1%;
@@ -45,7 +46,7 @@
 .box4{
 	width:100%;
 	height: 200px;
-	background-color: #053A66; /*ORANGE*/
+	background-color: #053A66; /*blå*/
 	margin-top:0%;
  border-bottom-left-radius: 2em;
 }
