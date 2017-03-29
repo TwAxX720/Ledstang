@@ -32,6 +32,11 @@ padding: 0%;
  padding-top: 6%;
  padding-bottom: 7%;
 margin-bottom: 0.4%;
+ font-family: arial;
+    font-size: 1vw;
+    color: white;
+       border-top:0.1em solid #EA8422;
+    border-bottom: 0.1em solid #EA8422;
 }
 
 
@@ -74,22 +79,32 @@ margin-right: 5%;
 
     width: 100%;
     height: auto;
-    border-top:2%
+    border-top:2%;
+    margin-bottom :10%;
 
 }
 
 .mått{
-    width:30%;
+    width:33%;
     height: auto;
     float: left;
- color: white;
+ color: black;
+  font-family: arial;
+    font-size: 4vw;
+
  background-color: white;
+}
+
+.mått:hover{
+
+    color:#EA8422;
+    font-size: 4vw;
 }
 
 .måttbild{
      width: 100%;
     height: auto;
-    background:url(../bilder/600.png); ) no-repeat center center;
+    background:url(../bilder/mått.png); ) no-repeat center center;
  -webkit-background-size: cover;
  -moz-background-size: cover;
  -o-background-size: cover;
@@ -104,7 +119,7 @@ margin-right: 5%;
 
 
 .tillverkning{
-    width: 30%;
+    width: 33%;
     height: auto;
     float: right;
       font-family: arial;
@@ -117,7 +132,7 @@ margin-right: 5%;
 .tillverkningbild{
      width: 100%;
     height: auto;
-    background:url(../bilder/600.png); ) no-repeat center center;
+    background:url(../bilder/tillverkning.png); ) no-repeat center center;
  -webkit-background-size: cover;
  -moz-background-size: cover;
  -o-background-size: cover;
@@ -132,7 +147,7 @@ margin-right: 5%;
 
 
 .montering{
-    width: 30%;
+    width: 33%;
     height: auto;
     float: ;
        font-family: arial;
@@ -146,7 +161,7 @@ margin-right: 5%;
 .monteringbild{
      width: 100%;
     height: auto;
-    background:url(../bilder/600.png); ) no-repeat center center;
+    background:url(../bilder/montering.png); ) no-repeat center center;
  -webkit-background-size: cover;
  -moz-background-size: cover;
  -o-background-size: cover;
@@ -212,7 +227,9 @@ li a:hover {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #fff;
+    background-color:#fff;
+      border-bottom: 0.1em solid #EA8422;
+      border-left: 0.1em solid #EA8422;
     display:inline-block;
     float: right;
 }
