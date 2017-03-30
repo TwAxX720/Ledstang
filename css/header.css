@@ -184,8 +184,8 @@ font-family: arial;
 a.four{
 
   font-family: arial;
-    font-size: 3vw;
-    color: white;
+    font-size: 1vw;
+    color: black;
      font-weight: bold;
      text-decoration: none;
 
@@ -196,7 +196,7 @@ a.four{
 a.four:hover{
 
   font-family: arial;
-    font-size: 3vw;
+    font-size: 1vw;
     color: #053A66;
      font-weight: bold;
 }
