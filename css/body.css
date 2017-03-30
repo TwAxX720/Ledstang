@@ -37,6 +37,8 @@
  background-position: center;
  padding-top: 5%;
   padding-bottom: 40%;
+           border-top:0.1em solid #EA8422;
+    border-bottom: 0.1em solid #EA8422;
 }
 .box2{
 
@@ -166,9 +168,9 @@ margin-left: 3%;
 
 .box8bild {
 
-	width: 100%;
+	width: 30%;
 	height: auto;
-	    background:url(../bilder/betalningsätt.jpg); ) no-repeat center center;
+	    background:url(../bilder/shop.png); ) no-repeat center center;
   -webkit-background-size: cover;
  -moz-background-size: cover;
  -o-background-size: cover;
@@ -214,3 +216,16 @@ hr{
 	width: 90%;
 	height: 2%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
