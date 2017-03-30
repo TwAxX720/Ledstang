@@ -40,7 +40,7 @@
 }
 .box2{
 
-	width: 40%;
+	width: 80%;
 	height: auto;
 	  	 font-family: Times New Roman;
     font-size:2.5vw;
@@ -53,35 +53,164 @@
 }
 
 .box3{
-padding-top: 3%;
+padding-top: 1%;
 	width: 100%;
 	height: auto;
-		  	 font-family:arial;
+		  	 font-family: Times New Roman;
     font-size:2.5vw;
     color: black;
-
 
 }
 
 .box4{
-
-width: 33%;
-height: 50px;
+margin-top: 2%;
+width: 30%;
+height:auto;
 float: left;
-background-color: black;
-	}
+margin-left: 3%;
+font-family: Times New Roman;
+    font-size:2vw;
+    color: black;
+}
+
+.box4bild {
+
+	width: 100%;
+	height: auto;
+	    background:url(../bilder/mått.png); ) no-repeat center center;
+  -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: 100%;
+ background-repeat: no-repeat;
+ max-width: auto;
+ max-height: auto;
+ background-position: center;
+ padding-top: 5%;
+  padding-bottom: 40%;
+}
+
+
 
 .box5{
 
-width: 33%;
-height: 50px;
-background-color: grey;
+width: 30%;
+margin-top: 2%;
+height: auto;
+font-family: Times New Roman;
+    font-size:2vw;
+    color: black;
 	}
+
+.box5bild {
+
+	width: 100%;
+	height: auto;
+	    background:url(../bilder/tillverkning.png); ) no-repeat center center;
+  -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: 100%;
+ background-repeat: no-repeat;
+ max-width: auto;
+ max-height: auto;
+ background-position: center;
+ padding-top: 5%;
+  padding-bottom: 40%;
+}
+
 
 .box6{
-
-width: 33%;
-height: 50px;
+margin-right: 3%;
+width: 30%;
+margin-top: 2%;
+height: auto;
 float: right;
-background-color: green;
-	}
+font-family: Times New Roman;
+    font-size:2vw;
+    color: black;
+}
+
+.box6bild {
+
+	width: 100%;
+	height: auto;
+	    background:url(../bilder/montering.png); ) no-repeat center center;
+  -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: 100%;
+ background-repeat: no-repeat;
+ max-width: auto;
+ max-height: auto;
+ background-position: center;
+ padding-top: 5%;
+  padding-bottom: 40%;
+}
+
+
+
+.box7{
+margin-top: 3%;
+	width: 100%;
+	height: auto;
+}
+
+.box8{
+margin-left: 3%;
+	width: 45%;
+	height: auto;
+	float: left;
+	font-family: Times New Roman;
+}
+
+.box8bild {
+
+	width: 100%;
+	height: auto;
+	    background:url(../bilder/betalningsätt.jpg); ) no-repeat center center;
+  -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: 100%;
+ background-repeat: no-repeat;
+ max-width: auto;
+ max-height: auto;
+ background-position: center;
+ padding-top: 5%;
+  padding-bottom: 40%;
+}
+
+
+
+.box9{
+margin-right: 3%;
+	width: 45%;
+	height: auto;
+	float: right;
+	font-family: Times New Roman;
+}
+
+.box9bild {
+
+	width: 60%;
+	height: auto;
+	    background:url(../bilder/dammberg.jpg); ) no-repeat center center;
+  -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: 100%;
+ background-repeat: no-repeat;
+ max-width: auto;
+ max-height: auto;
+ background-position: center;
+ padding-top: 5%;
+  padding-bottom: 40%;
+}
+
+
+hr{
+
+	width: 90%;
+	height: 2%;
+}
