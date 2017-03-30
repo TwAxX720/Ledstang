@@ -21,7 +21,7 @@
 
 	width: 100%;
 	height: auto;
-		background-color: #EA8422; /*ORANGE*/
+		background-color: #053A66; /*ORANGE*/
 
 }
 
@@ -29,35 +29,44 @@
 .box3{
 	width:100%;
 	height: auto;
-	background-color: #053A66; /*blå*/
+	background-color: #EA8422; /*blå*/
 	margin-top:0%;
 	 border-bottom-left-radius: 2em;
 }
 .box2{
 	width:100%;
 	height: auto;
-	background-color: #EA8422; /*ORANGE*/
+	background-color: #053A66; /*ORANGE*/
 	margin-top:0%;
  border-bottom-left-radius: 2em ;
-	 padding-top: 1%;
+	 padding-top: 2%;
 	 padding-bottom: 2%;
 }
 
 
 .box4{
 	width:100%;
-	height: 300px;
-	background-color: #053A66; /*blå*/
+	height: auto;
+	background-color: #EA8422; /*blå*/
 	margin-top:0%;
  border-bottom-left-radius: 2em;
- padding-top: 2%;
+ padding-top: 3%;
+ padding-bottom: 7%;
 }
 
 .footer1{
 	width:100%;
-	height: 200px;
-	background-color:#888; 
+	height:auto;
+	background-color:#777; 
 	margin-top:0%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+		  font-family: arial;
+    font-size: 0.8vw;
+    color: white;
+    text-align: left;
+    padding-left: 5%;
+
 }
 
 
@@ -65,7 +74,7 @@
 
 	width: 100%;
 	height: auto;
-		background-color: #888; 
+		background-color: #777; 
 
 }
 
@@ -74,27 +83,36 @@
 
 
 .box5{
-	width: 30%;
+	width: 31%;
 	height: auto;
 	float: left;
-background-color: black;
 margin-left: 2%;
+  font-family: arial;
+    font-size: 1.5vw;
+    color: white;
+    
+
 }
 
+
 .box6{
-	width: 30%;
+	width: 31%;
 	height: auto;
 	float:;
-	background-color: grey;
-	
+	  font-family: arial;
+    font-size: 1.5vw;
+    color: white;
+ 
 }
 
 .box7{
-		width: 30%;
+	width: 31%;
 	height: auto;
 	float: right;
-	background-color: white;
 	margin-right: 2%;
+  font-family: arial;
+    font-size: 1.5vw;
+    color: white;
 
 
 	
@@ -105,7 +123,7 @@ margin-left: 2%;
 
     width: 100%;
     height: auto;
-    background:url(http://kingofwallpapers.com/1920x1080/1920x1080-004.jpg); ) no-repeat center center;
+    background:url(../bilder/matt.png); ) no-repeat center center;
  -webkit-background-size: cover;
  -moz-background-size: cover;
  -o-background-size: cover;
@@ -114,22 +132,65 @@ margin-left: 2%;
  max-width: auto;
  max-height: auto;
  background-position: center;
- padding-top: 50%;
- padding-bottom:;
+ padding-top: 26%;
+ padding-bottom:30%;
+  border-bottom-left-radius: 2em ;
+}
 
+.tillverkning{
 
+    width: 100%;
+    height: auto;
+    background:url(../bilder/tillverkning.png); ) no-repeat center center;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: 100%;
+ background-repeat: no-repeat;
+ max-width: auto;
+ max-height: auto;
+ background-position: center;
+ padding-top: 26%;
+ padding-bottom:30%;
+  border-bottom-left-radius: 2em ;
+}
+
+.montering{
+
+    width: 100%;
+    height: auto;
+    background:url(../bilder/montering.png); ) no-repeat center center;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: 100%;
+ background-repeat: no-repeat;
+ max-width: auto;
+ max-height: auto;
+ background-position: center;
+ padding-top: 26%;
+ padding-bottom:30%;
+  border-bottom-left-radius: 2em ;
 }
 
 .box8{
-	width: 40%;
+	width: 45%;
 	height: auto;
 	float: left;
 	margin-left: 2%;
+	  font-family: arial;
+    font-size: 3vw;
+    color: white;
+     font-weight: bold;
 }
 
 .box9{
-	width: 40%;
+	width: 45%;
 	height: auto;
 	float: right;
 	margin-right: 2%;
+	  font-family: arial;
+    font-size: 3vw;
+    color: white;
+     font-weight: bold;
 }

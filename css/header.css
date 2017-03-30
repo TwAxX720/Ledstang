@@ -75,105 +75,6 @@ margin-right: 5%;
 
 
 
-.boxtill3val{
-
-    width: 100%;
-    height: auto;
-    border-top:2%;
-    margin-bottom :10%;
-
-}
-
-.mått{
-    width:33%;
-    height: auto;
-    float: left;
- color: black;
-  font-family: arial;
-    font-size: 4vw;
-
- background-color: white;
-}
-
-.mått:hover{
-
-    color:#EA8422;
-    font-size: 4vw;
-}
-
-.måttbild{
-     width: 100%;
-    height: auto;
-    background:url(../bilder/mått.png); ) no-repeat center center;
- -webkit-background-size: cover;
- -moz-background-size: cover;
- -o-background-size: cover;
- background-size: 100%;
- background-repeat: no-repeat;
- max-width: auto;
- max-height: auto;
- background-position: center;
- padding-top: 20%;
- padding-bottom: 20%;
-}
-
-
-.tillverkning{
-    width: 33%;
-    height: auto;
-    float: right;
-      font-family: arial;
-     font-size: 4vw;
-    color: white;
-     background-color: black;
-}
-
-
-.tillverkningbild{
-     width: 100%;
-    height: auto;
-    background:url(../bilder/tillverkning.png); ) no-repeat center center;
- -webkit-background-size: cover;
- -moz-background-size: cover;
- -o-background-size: cover;
- background-size: 100%;
- background-repeat: no-repeat;
- max-width: auto;
- max-height: auto;
- background-position: center;
- padding-top: 20%;
- padding-bottom: 20%;
-}
-
-
-.montering{
-    width: 33%;
-    height: auto;
-    float: ;
-       font-family: arial;
-      font-size: 4vw;
-    color: white;
-     background-color: black;
-}
-
-
-
-.monteringbild{
-     width: 100%;
-    height: auto;
-    background:url(../bilder/montering.png); ) no-repeat center center;
- -webkit-background-size: cover;
- -moz-background-size: cover;
- -o-background-size: cover;
- background-size: 100%;
- background-repeat: no-repeat;
- max-width: auto;
- max-height: auto;
- background-position: center;
- padding-top: 20%;
- padding-bottom: 20%;
-}
-
 .boxtillmenu{
 
     height:auto;
@@ -212,13 +113,14 @@ li a {
    font-size:0.9vw;
     color: #fff;
     text-align: center;
-padding:1.5em 2.5em 2.5em 2.5em;
+padding:1em 1em 2em 1em;
     text-decoration: none;
 }
 
 li a:hover {
     background-color:#EA8422;
     border-radius: 2%;
+    color: #fff;
 }
 
 
@@ -247,7 +149,7 @@ li a:hover {
     font-size:0.8vw;
     color: #000;
     text-align: center;
-padding:1.5em 2.5em 2.5em 2.5em;
+padding:1em 1em 2em 1em;
     text-decoration: ;
     border-radius: 2%;
 }
@@ -275,6 +177,28 @@ a.two:hover{
     text-decoration: none;
     color:#EA8422 ;
 font-family: arial;
+}
+
+
+
+a.four{
+
+  font-family: arial;
+    font-size: 3vw;
+    color: white;
+     font-weight: bold;
+     text-decoration: none;
+
+
+
+}
+
+a.four:hover{
+
+  font-family: arial;
+    font-size: 3vw;
+    color: #053A66;
+     font-weight: bold;
 }
 
 
