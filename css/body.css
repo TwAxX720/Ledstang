@@ -26,60 +26,62 @@
 	width: 100%;
 	height: auto;
 	padding-top: 1%;
-
-}
-
-.box2{
-width: 50%;
-float: left;
-}
-
-.box5{
-width: 50%;
-float: right;
-text-align: center;
-}
-
-
-
-
-.box3{
-
-width: 60%;
-margin-top: 0%;
-margin-right: 30%;
-height:auto;
-  background:url(https://s-media-cache-ak0.pinimg.com/736x/59/c3/90/59c390f1003f4c5a1025d0d945abe157.jpg); ) no-repeat center center;
- -webkit-background-size: cover;
+	    background:url(../bilder/tillverkning.png); ) no-repeat center center;
+  -webkit-background-size: cover;
  -moz-background-size: cover;
  -o-background-size: cover;
  background-size: 100%;
  background-repeat: no-repeat;
  max-width: auto;
  max-height: auto;
- background-size: 80%;
  background-position: center;
- float: right;
- padding-bottom: 0%;
- padding-top: 50%;
+ padding-top: 5%;
+  padding-bottom: 40%;
+}
+.box2{
+
+	width: 40%;
+	height: auto;
+	  	 font-family: Times New Roman;
+    font-size:2.5vw;
+    color: white;
+    opacity: 2;
+    text-align: left;
+    float: left;
+    padding-left: 5%;
+
 }
 
+.box3{
+padding-top: 3%;
+	width: 100%;
+	height: auto;
+		  	 font-family:arial;
+    font-size:2.5vw;
+    color: black;
+
+
+}
 
 .box4{
-width: 20%;
-margin-bottom: 8%;
-height:auto;
-background-color: #fff;
-color: #fff;
-font-size:0.8vw;
-font-family:arial;
-padding: 1%;
-border: 0.1vw;
-border-style: solid;
-    border: 0.1em solid #EA8422;
 
+width: 33%;
+height: 50px;
+float: left;
+background-color: black;
+	}
 
+.box5{
 
+width: 33%;
+height: 50px;
+background-color: grey;
+	}
 
+.box6{
 
-}
+width: 33%;
+height: 50px;
+float: right;
+background-color: green;
+	}
