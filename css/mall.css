@@ -7,3 +7,38 @@ body,html {
     margin: 0%;
 }
 
+
+
+.sida2 {
+
+	width: 100%;
+	height: auto;
+	padding-top: 1%;
+	    background:url(http://hlf.se/econtent/img/imgp02073.jpg); ) no-repeat center center;
+  -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: 100%;
+ background-repeat: no-repeat;
+ max-width: auto;
+ max-height: auto;
+ background-position: center;
+ padding-top: 5%;
+  padding-bottom: 10%;
+           border-top:0.1em solid #EA8422;
+    border-bottom: 0.1em solid #EA8422;
+}
+.sida2bild{
+
+	width: 80%;
+	height: auto;
+	  	 font-family: Times New Roman;
+    font-size:2.5vw;
+    color: white;
+    opacity: 2;
+    text-align: left;
+    float: left;
+    padding-left: 5%;
+    margin-bottom: 5%;
+
+}
