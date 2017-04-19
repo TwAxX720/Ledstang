@@ -134,3 +134,20 @@ a:hover{
   color: #888;
   text-decoration: none;
 }
+
+
+
+a.tva{
+
+  text-decoration: none;
+  color: #000;
+  font-size: 1.8vw;
+  	font-family: Times New Roman;
+}
+
+a.tva:hover{
+	font-size: 1.9vw;
+  color:#EA8422;
+  text-decoration: none;
+  	font-family: Times New Roman;
+}

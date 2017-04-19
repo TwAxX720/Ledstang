@@ -164,6 +164,7 @@ margin-left: 3%;
 	height: auto;
 	float: left;
 	font-family: Times New Roman;
+
 }
 
 .box8bild {
@@ -190,7 +191,12 @@ margin-right: 3%;
 	width: 45%;
 	height: auto;
 	float: right;
-	font-family: Times New Roman;
+
+}
+
+.box9:hower{
+
+	color:white;
 }
 
 .box9bild {
@@ -208,6 +214,7 @@ margin-right: 3%;
  background-position: center;
  padding-top: 5%;
   padding-bottom: 40%;
+
 }
 
 
