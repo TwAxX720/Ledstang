@@ -97,6 +97,7 @@ ul {
     width: 100%;
     background-color:#053A66;
     display: table;
+    font-size: 1.2vw;
 
 
 }
@@ -204,35 +205,103 @@ a.four:hover{
 
 
 
-#sido {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #fff;
-    display:;
+.vertical-menu {
+    width: 20%; 
+    float: left;
+    margin-top: %;
 }
 
-
-#sido li
-{
+.vertical-menu a {
+    background-color:#053A66; 
+    color: white; 
+    display: block; 
+    padding:3%; 
+ text-decoration: none;
+ font-family:'Ranga', cursive;
+ font-size: 1.2vw;
 }
 
-#sido li a
+.vertical-menu a:hover {
+    background-color: #EA8422; 
+     font-size: 1.2vw;
+     color: black;
+}
+
+.vertical-menu a.active {
+    background-color:#EA8422;
+     font-size: 1.2vw;
+    color: black;
+}
+
+.produkterboxen
 {
-    height:0em;
-    display: block;
-    font-family: arial;
-    font-size:0.8vw;
-    color: #000;
+    width: 90%;
+    background-color: transparent;
+    height: auto;
+}
+
+.produktbox{
+    height: auto;
+font-size: 1.2vw;
+    width: 50%;
     text-align: center;
-    padding: 1em 1em 2em 2em;
-    text-decoration: ;
 }
 
-#sido li:hover a,
-#sido li a:hover
-{
-background-color: #000;
- color: #fff;
+h2{
+
+    font-size: 1.5vw;
+}
+
+
+.boxvänster{
+margin-left: 2%;
+    width: 31%;
+    height: auto;
+    float: left;
+}
+
+.boxhöger{
+
+    width: 47%;
+    height: auto;
+    float: right;
+}
+
+
+
+.vänsterhöger{
+
+    width: 50%;
+    height: auto;
+    float: right;
+}
+
+
+.vänstervänster{
+
+    width: 50%;
+    height: auto;
+    float: left;
+}
+
+
+.högervänster{
+
+    float: left;
+    width: 33%;
+    height: auto;
+}
+
+.högermitten{
+
+    width: 33%;
+    height: auto;
+    float: ;
+}
+
+.högerhöger{
+
+    width: 33%;
+    float: right;
+    height: auto;
 }

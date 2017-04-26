@@ -181,7 +181,7 @@ margin-bottom: 2%;
 	height: auto;
 	float: left;
 font-family: 'Ranga', cursive;
-font-size: 1.3em;
+font-size: 1.3vw;
 
 }
 
@@ -206,7 +206,7 @@ background:url(../bilder/400x300.gif); ) no-repeat center center;
 
 .box9{
 margin-right: 3%;
-font-size: 1.3em;
+font-size: 1.3vw;
 margin-bottom: 2%;
 	width: 47%;
 	height: auto;
@@ -345,12 +345,11 @@ margin-top: 2%;
 }
 
 .close {
-  color: white;
+  color: black;
   position: absolute;
-  top: 5%;
-  right: 3%;
-  font-size: 2em;
+  font-size: 2vw;
   font-weight: bold;
+  margin-left: 85%;
 }
 
 .close:hover,
@@ -364,7 +363,6 @@ margin-top: 2%;
   display: none;
 }
 
-/* Next & previous buttons */
 .prev,
 .next {
   cursor: pointer;
@@ -377,7 +375,7 @@ margin-top: 2%;
   margin-top: -10%;
   color: black;
   font-weight: bold;
-  font-size: 2em;
+  font-size: 2vw;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
@@ -401,7 +399,7 @@ margin-top: 2%;
 
 .numbertext {
   color: #000;
-  font-size: 2em;
+  font-size: 2vw;
   padding: 1%;
   position: absolute;
   top: 0;
@@ -434,7 +432,63 @@ img.hover-shadow {
 
 
 
+.box15{
+padding-top: 1%;
+  width: 50%;
+  height: auto;
+  float-right;
+    font-family: 'Ranga', cursive;
+    font-size:1.5vw;
+    color: black;
+    background:;
 
+  
+
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width:100%; /* Full width */
+    padding: 2%; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 1%; /* Add a top margin */
+    margin-bottom: 2%; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    font-family: 'Ranga', cursive;
+    font-size:1.5vw;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 2%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Ranga', cursive;
+    font-size:1.5vw;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+    font-family: 'Ranga', cursive;
+    font-size:1.5vw;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  width:95%;
+    border-radius: 5px;
+    background-color: #053A66;
+    padding: 5%;
+    color:#fff;
+    font-family: 'Ranga', cursive;
+    font-size:1.5vw;
+}
 
 
 
