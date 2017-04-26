@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="../css/footer.css">
   <link rel="stylesheet" href="../css/body.css">
 <link href="https://fonts.googleapis.com/css?family=Ranga" rel="stylesheet">
-  <script src="script.js"></script>
+  <script src="../script/script.js"></script>
   <meta charset="utf-8">
   <title>Ledstångsfabriken</title>
   <meta name="description" content="The HTML5 Herald">
@@ -40,32 +40,106 @@ Våran Shop Och Prudukter
 </div>
 </div>
 
+<h2>Insparation</h2><hr>
+<p>Med dessa bilder vill vi inspirera och förmedla känslan av att det är bara fantasin som sätter stopp för vad man kan skapa .</p><hr>
 
-<div class="box7">
 
-<a class="tva" href="https://webshop.hlf.se/"><div class="box8">Vår WebbShop
-<div class="box8bild"></div></a>
+<div class="bildboxslide">
+  <div class="column1" onclick="openModal();currentSlide(1)" class="hover-shadow">
+  </div>
+    <div class="column3" onclick="openModal();currentSlide(3)" class="hover-shadow">
+  </div>
+  <div class="column2" onclick="openModal();currentSlide(2)" class="hover-shadow">
+  </div>
+  </div>
+  
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 3</div>
+        <img src="http://www.mrwallpaper.com/wallpapers/grunge-world-map-1920x1080.jpg" style="width:80%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 3</div>
+        <img src="http://www.mrwallpaper.com/wallpapers/Mountain-Lake-at-Evening-1920x1080.jpg" style="width:80%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 3</div>
+        <img src="http://kingofwallpapers.com/1920x1080/1920x1080-004.jpg" style="width:80%">
+    </div>
+
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+    <div class="column">
+      <img class="demo" src="img1.jpg" onclick="currentSlide(1)" alt="land">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="img1.jpg" onclick="currentSlide(3)" alt="Nature">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="img1.jpg" onclick="currentSlide(2)" alt="rymnd">
+    </div>
+
+   
+  </div>
+</div>
+
 </div>
 
 
 
 
-<a class="tva" href="https://webshop.hlf.se/"><div class="box9">Våra Produkter
-<div class="box9bild"></div></a>
-</div>
 
-</div>
+<script>
+function openModal() {
+  document.getElementById('myModal').style.display = "block";
+}
 
+function closeModal() {
+  document.getElementById('myModal').style.display = "none";
+}
 
+var slideIndex = 1;
+showSlides(slideIndex);
 
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
 
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
 
-
-
-
-
-
-
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
 
 
 

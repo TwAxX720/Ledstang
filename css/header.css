@@ -204,3 +204,35 @@ a.four:hover{
 
 
 
+#sido {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff;
+    display:;
+}
+
+
+#sido li
+{
+}
+
+#sido li a
+{
+    height:0em;
+    display: block;
+    font-family: arial;
+    font-size:0.8vw;
+    color: #000;
+    text-align: center;
+    padding: 1em 1em 2em 2em;
+    text-decoration: ;
+}
+
+#sido li:hover a,
+#sido li a:hover
+{
+background-color: #000;
+ color: #fff;
+}

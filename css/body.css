@@ -77,6 +77,7 @@ padding-top: 1%;
     font-size:2.5vw;
     color: black;
 
+
 }
 
 .box4{
@@ -237,14 +238,199 @@ background:url(../bilder/400x300.gif); ) no-repeat center center;
 }
 
 
+
 hr{
 
 	width: 90%;
 	height: 2%;
 }
 
+.bildboxslide{
+margin-top: 2%;
+	width: 90%;
+	height: auto
+}
 
 
+.column {
+  float: left;
+  width: 5%;
+  margin-right: 1%;
+}
+
+
+.column1 {
+  float:left;
+  width:30%;
+  background:url(http://www.mrwallpaper.com/wallpapers/grunge-world-map-1920x1080.jpg); ) no-repeat center center;
+  -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: 100%;
+ background-repeat: no-repeat;
+ max-width: auto;
+ max-height: auto;
+ background-position: center;
+ padding-top: 5%;
+  padding-bottom: 5%;
+
+}
+
+
+.columntext1 {
+  width:30%;
+ padding-top: 5%;
+  padding-bottom: 5%;
+
+}
+
+.column2 {
+  float:;
+  width:30%;
+   background:url(http://www.mrwallpaper.com/wallpapers/Mountain-Lake-at-Evening-1920x1080.jpg); ) no-repeat center center;
+  -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: 100%;
+ background-repeat: no-repeat;
+ max-width: auto;
+ max-height: auto;
+ background-position: center;
+ padding-top: 5%;
+  padding-bottom: 5%;
+
+}
+
+.column3 {
+  float:right;
+  width:30%;
+   background:url(http://kingofwallpapers.com/1920x1080/1920x1080-004.jpg); ) no-repeat center center;
+  -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: 100%;
+ background-repeat: no-repeat;
+ max-width: auto;
+ max-height: auto;
+ background-position: center;
+ padding-top: 5%;
+  padding-bottom: 5%;
+
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 0%;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+
+
+}
+
+.modal-content {
+  position: relative;
+  margin: auto;
+  background-color: white;
+  padding: 0;
+  width: 100%;
+  max-width: 1200px;
+  height: auto;
+}
+
+.close {
+  color: white;
+  position: absolute;
+  top: 5%;
+  right: 3%;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 60%;
+  margin-left:-40%;
+  margin-right:10%;
+  width: 20%;
+  padding:2%;
+  margin-top: -10%;
+  color: black;
+  font-weight: bold;
+  font-size: 2em;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+  background-color: white;
+  opacity: 0.4;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+.numbertext {
+  color: #000;
+  font-size: 2em;
+  padding: 1%;
+  position: absolute;
+  top: 0;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: white;
+  padding-bottom: 6%;
+  color: black;
+}
+
+img.demo {
+  opacity: 0.6;
+  width: 100%;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
 
 
 
