@@ -227,7 +227,7 @@ a.four:hover{
      color: black;
 }
 
-.vertical-menu a.active {
+.vertical-menu a.hej {
     background-color:#EA8422;
      font-size: 1.2vw;
     color: black;
@@ -253,55 +253,107 @@ h2{
 }
 
 
-.boxvänster{
-margin-left: 2%;
-    width: 31%;
+.boxtillprodukt{
+
+    width: 100%;
+    height: auto;
+}
+
+.infoknapp{
+    width: 90%;
+    background-color: white;
+    color: black;
+    height: auto;
+    font-size: 1vw;
+    margin-bottom: 5%;
+}
+
+.leftbox{
+    width: 25%;
     height: auto;
     float: left;
 }
 
-.boxhöger{
-
-    width: 47%;
-    height: auto;
-    float: right;
-}
-
-
-
-.vänsterhöger{
-
-    width: 50%;
-    height: auto;
-    float: right;
-}
-
-
-.vänstervänster{
-
-    width: 50%;
+.leftleft{
+    width: 30%;
     height: auto;
     float: left;
+
 }
 
-
-.högervänster{
-
-    float: left;
-    width: 33%;
-    height: auto;
-}
-
-.högermitten{
-
-    width: 33%;
+.leftmitten{
+    width: 30%;
     height: auto;
     float: ;
 }
 
-.högerhöger{
-
-    width: 33%;
-    float: right;
+.leftright{
+    width: 30%;
     height: auto;
+    float:right;
 }
+
+
+
+
+
+
+.mittenbox{
+    width: 25%;
+    margin-left: 24%;
+    height: auto;
+    float: ;
+}
+
+.mittenleft{
+    width: 30%;
+    height: auto;
+    float: left;
+
+}
+
+.mittenmitten{
+    width: 30%;
+    height: auto;
+    float: ;
+}
+
+.mittenright{
+    width: 30%;
+    height: auto;
+    float:right;
+}
+
+
+
+
+
+
+
+
+
+
+
+.rightbox{
+    width: 24%;
+    height: auto;
+        float: right;
+}
+
+
+
+.rightleft{
+    width: 30%;
+    height: auto;
+    float: left;
+}
+
+.rightmitten{
+    width: 30%;
+    height: auto;
+    float: ;
+
+}
+
+
+
