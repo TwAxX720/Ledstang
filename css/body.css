@@ -474,5 +474,19 @@ input[type=submit]:hover {
 }
 
 
+.thumbnails img {
+  height:auto;
+  width: 18%;
+  border: 0.1vw solid #555;
+  padding: 0;
+  margin-left: 1%;
+  margin-right: 1%;
+}
 
+.thumbnails img:hover {
+}
 
+.preview img {
+  border: 0.1vw solid #444;
+  width: 80%;
+}
